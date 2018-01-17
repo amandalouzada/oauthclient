@@ -1,0 +1,33 @@
+{
+    "name": "amandalouzada/authclient",
+    "description": "Cliente Oauth utilizando ACL artesao/defender",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*",
+        "guzzlehttp/guzzle": "^6.3",
+        "fideloper/proxy": "~3.3",
+        "laravel/tinker": "~1.0"
+    },
+    "require-dev": {
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~6.0",
+        "symfony/thanks": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "amandalouzada\\oauthclient\\": "src/OauthClient/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Amanda Louzada",
+            "email": "amandanuneslouzada@gmail.com"
+        }
+    ]
+}
